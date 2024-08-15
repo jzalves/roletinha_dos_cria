@@ -42,36 +42,36 @@ body{
 	left:135px;
 }
 
-.container .one{
+.container .injustice{
 	background-image: url(imagens/injust200px.png);
 	left:50%;
 }
-.container .two{
-	background-color: #ff9800;
+.container .StreetFighter{
+	background-image: url(imagens/street\ fighter\ 200px.png);
 	transform: rotate(45deg);
 }
-.container .three{
-	background-color: #e91e63;
+.container .Tekken{
+	background-image: url(imagens/tekken200px.png);
 	transform:rotate(90deg);
 }
-.container .four{
-	background-color: #4caf50;
+.container .GuiltyGear{
+	background-image: url(imagens/GuiltyGear200px.png);
 	transform: rotate(135deg);
 }
-.container .five{
-	background-color: #009688;
+.container .mk{
+	background-image: url(imagens/mk1200px.png);
 	transform: rotate(180deg);
 }
-.container .six{
-	background-color: #795548;
+.container .Kstin{
+	background-image: url(imagens/Killer\ Instinct200px.png);
 	transform: rotate(225deg);
 }
-.container .seven{
-	background-color: #9c27b0;
+.container .smash{
+	background-image: url(imagens/smash200px.png);
 	transform: rotate(270deg);
 }
-.container .eight{
-	background-color: #f44336;
+.container .theking{
+	background-image: url(imagens/theking.jpeg);
 	transform: rotate(315deg);
 }
 
@@ -80,7 +80,7 @@ body{
 	top:0;
 	left:50%;
 	transform: translateX(-50%);
-	color:#fff;
+	color:#b8bcce;
 }
 
 .arrow::before{
@@ -88,17 +88,18 @@ body{
 	font-size:50px;
 }
 
+
 #spin{
 	position: absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
 	z-index:10;
-	background-color: #e2e2e2;
+	background-image: url(imagens/girar.png);
 	text-transform: uppercase;
 	border:8px solid #fff;
 	font-weight:bold;
-	font-size:20px;
+	font-size:15px;
 	color:#a2a2a2;
 	width: 80px;
 	height:80px;
@@ -107,4 +108,9 @@ body{
 	cursor: pointer;
 	outline:none;
 	letter-spacing: 1px;
+}
+#spin:hover{
+	background-image: url(imagens/dedomeio50px.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
 }
