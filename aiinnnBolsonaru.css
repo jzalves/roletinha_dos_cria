@@ -171,3 +171,18 @@ h1{
 
 }
 
+.silvio{
+	right: 0%;
+	bottom: 0%;
+	position: absolute;
+}
+
+.laranja{
+	left: 0%;
+	bottom: 10%;
+	position: absolute;
+}
+.dan{
+	position: absolute;
+	left: 10%;
+}
