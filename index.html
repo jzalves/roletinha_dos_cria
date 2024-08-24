@@ -27,9 +27,8 @@
 	<div class="smash"></div>
 	<div class="theking"></div>
 </div>
-<audio id="musiquinha" autoplay controls >
-	<source src="musiquinha/musiquinha.mp3" type="audio/mpeg">
-</audio>
+
+
 
 <img src="imagens/" alt="">
 
@@ -37,6 +36,37 @@
     <button class="pensamento" onclick="mostrarFrase()"><img src="imagens/frasedodia-removebg-preview.png" alt=""></button>
 
 <span class="arrow"><img src="imagens/bonoro.png" alt=""></span>
+
+<div class="placar-container">
+	<h1>Placar</h1>
+	<table id="placar">
+		<thead>
+			<tr>
+				<th>Jogador</th>
+				<th>Vitórias</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>José</td>
+				<td id="vitoria1">0</td>
+			</tr>
+			<tr>
+				<td>Pedro</td>
+				<td id="vitoria2">0</td>
+			</tr>
+			<tr>
+				<td>Matheus</td>
+				<td id="vitoria3">0</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="buttons">
+		<button onclick="adicionarVitoria(1)">José +1</button>
+		<button onclick="adicionarVitoria(2)">Pedro +1</button>
+		<button onclick="adicionarVitoria(3)">Matheus +1</button>
+	</div>
+</div>
 
 <script src="rolaetinha.js"></script>
 

@@ -28,3 +28,10 @@ function mostrarFrase() {
 	const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
 	document.getElementById('frase').textContent = fraseAleatoria;
 }
+
+function adicionarVitoria(jogador) {
+    const vitoriaElement = document.getElementById(`vitoria${jogador}`);
+    let vitorias = parseInt(vitoriaElement.textContent);
+    vitorias += 1;
+    vitoriaElement.textContent = vitorias;
+}
